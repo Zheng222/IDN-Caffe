@@ -1,0 +1,3 @@
+function I = myshave(I, upscale)
+I = I(2:end-upscale, ...
+      2:end-upscale, :, :);
