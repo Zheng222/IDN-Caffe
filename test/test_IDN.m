@@ -11,10 +11,10 @@ addpath('./evaluation_func/matlabPyrTools-master/');
 % model = 'IND_x4_deploy.prototxt';
 model = 'IND_x3_deploy.prototxt';
 
-% weights = 'model/IDN_x2.caffemodel';
-% weights = 'model/IDN_x4.caffemodel';
-weights = 'model/IDN_x3.caffemodel';
-%weights = 'model/IDN_x4_mscoco.caffemodel';
+% weights = 'caffemodel/IDN_x2.caffemodel';
+% weights = 'caffemodel/IDN_x4.caffemodel';
+weights = 'caffemodel/IDN_x3.caffemodel';
+%weights = 'caffemodel/IDN_x4_mscoco.caffemodel';
 net=caffe.Net(model,weights,'test');
 test_dataset='Set5'; % Set5 | Set14 | B100 | Urban100
 
