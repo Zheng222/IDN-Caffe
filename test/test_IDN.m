@@ -107,7 +107,7 @@ for i=1:length(filepaths)
     end
     save(fullfile(folderResultCur,['PSNR_',test_dataset,'_x',num2str(up_scale),'.mat']),'psnr_idn');
     save(fullfile(folderResultCur,['SSIM_',test_dataset,'_x',num2str(up_scale),'.mat']),'ssim_idn');
-    save(fullfile(folderResultCur,['IFC_', test_dataset,'_x',num2str(up_scale),'.mat']),'ifc_idn')
+    save(fullfile(folderResultCur,['IFC_', test_dataset,'_x',num2str(up_scale),'.mat']),'ifc_idn');
 end
 
 fprintf('Mean PSNR for Bicubic: %f dB\n', mean(psnr_bic));
