@@ -116,7 +116,7 @@ fprintf('Mean PSNR for IDN: %f dB\n', mean(psnr_idn));
 fprintf('Mean SSIM for Bicubic: %f \n', mean(ssim_bic));
 fprintf('Mean SSIM for IDN: %f \n', mean(ssim_idn)); 
 
-fprintf('Mean IFC for Inception: %f \n', mean(ifc_idn)); 
-fprintf('Mean IFC for IDN: %f \n', mean(ifc_bic)); 
+fprintf('Mean IFC for Bicubic: %f \n', mean(ifc_bic));
+fprintf('Mean IFC for IDN: %f \n', mean(ifc_idn)); 
 
 fprintf('Mean Time for IDN: %f \n', mean(time_idn));
