@@ -20,11 +20,12 @@ The results are stored in "results" folder, with both reconstructed images and P
 ## Citation
 
 If you find IDN useful in your research, please consider citing:
+
 ```
-@article{Hui-IDN-2018,
+@inproceedings{Hui-IDN-2018,
   title={Fast and Accurate Single Image Super-Resolution via Information Distillation Network},
   author={Hui, Zheng and Wang, Xiumei and Gao, Xinbo},
-  journal={arXiv preprint arXiv:1803.09454},
+  booktitle={CVPR},
   year={2018}
 }
 ```
