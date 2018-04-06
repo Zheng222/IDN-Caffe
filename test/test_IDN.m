@@ -7,9 +7,9 @@ caffe.reset_all();
 addpath('./evaluation_func/');
 addpath('./evaluation_func/matlabPyrTools-master/');
 
-% model = 'IND_x2_deploy.prototxt';
-% model = 'IND_x4_deploy.prototxt';
-model = 'IND_x3_deploy.prototxt';
+% model = 'IDN_x2_deploy.prototxt';
+% model = 'IDN_x4_deploy.prototxt';
+model = 'IDN_x3_deploy.prototxt';
 
 % weights = 'caffemodel/IDN_x2.caffemodel';
 % weights = 'caffemodel/IDN_x4.caffemodel';
