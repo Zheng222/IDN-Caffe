@@ -1,0 +1,28 @@
+# The train/test net protocol buffer definition
+net: "IDN_x2.prototxt" # IDN_x2.prototxt | IDN_x3.prototxt
+test_iter:267    # 267(x2) | 231(x3) | 126(x4)
+
+#Carry out testing every 5000 training iterations.
+test_interval: 5000
+
+#The base learning rate, momentum and the weight decay of the network.
+type: "Adam"
+base_lr: 0.0001
+weight_decay: 0.0001
+
+# The learning rate policy
+lr_policy: "step"
+gamma: 0.1
+stepsize: 250000
+
+regularization_type: "L2"
+
+# Display every 500 iterations
+display: 500
+# The maximum number of iterations
+max_iter: 600000
+# snapshot intermediate results
+snapshot: 20000
+snapshot_prefix: "caffemodel_x2/IDN"  # caffemodel_x3/IDN | caffemodel_x4/IDN
+# solver mode: CPU or GPU
+solver_mode: GPU
