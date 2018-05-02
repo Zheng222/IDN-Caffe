@@ -117,7 +117,6 @@ layer {
         kernel_size: 3
         stride: 1
         pad: 1
-        group: 1
         weight_filler {
             type: "msra"
             variance_norm: 2
@@ -1247,10 +1246,10 @@ layer {
         lr_mult: 0.1
     }
     convolution_param {
-        kernel_size: 15
+        kernel_size: 17
         stride: 2
         num_output: 1
-        pad: 7
+        pad: 8
         weight_filler {
             type: "msra"
             variance_norm: 2
