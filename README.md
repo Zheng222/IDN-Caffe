@@ -1,7 +1,9 @@
 # IDN-Caffe
 Caffe implementation of "Fast and Accurate Single Image Super-Resolution via Information Distillation Network" 
 
-[arxiv](http://arxiv.org/abs/1803.09454)
+[arXiv](http://arxiv.org/abs/1803.09454) 
+
+[CVF](http://openaccess.thecvf.com/content_cvpr_2018/html/Hui_Fast_and_Accurate_CVPR_2018_paper.html)
 
 ## Run test
 
@@ -32,6 +34,7 @@ If you find IDN useful in your research, please consider citing:
   title={Fast and Accurate Single Image Super-Resolution via Information Distillation Network},
   author={Hui, Zheng and Wang, Xiumei and Gao, Xinbo},
   booktitle={CVPR},
+  pages = {723--731},
   year={2018}
 }
 ```
