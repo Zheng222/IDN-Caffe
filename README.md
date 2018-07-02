@@ -1,10 +1,27 @@
 # IDN-Caffe
 Caffe implementation of "Fast and Accurate Single Image Super-Resolution via Information Distillation Network" 
 
-[arXiv](http://arxiv.org/abs/1803.09454) 
+[arXiv](http://arxiv.org/abs/1803.09454)
 
 [CVF](http://openaccess.thecvf.com/content_cvpr_2018/html/Hui_Fast_and_Accurate_CVPR_2018_paper.html)
 
+[Poster](files/cvpr18_poster.pdf)
+
+<p align="center">
+    <img src="files/whole architecture.jpg" width="640"> <br />
+    <em> The schematics of the proposed Information Distillation Network</em>
+</p>
+
+<p align="center">
+    <em> The average feature maps of enhancement units </em>
+    <img src="files/lenna.jpg" width="640"> <br />
+    <em> The average feature maps of compression units </em>
+</p>
+
+<p align="center">
+    <img src="files/visualization.jpg" width="800"> <br />
+    <em> Visualization of the output feature maps of the third convolution in each enhancement unit </em>
+</p>
 ## Run test
 
 * Install Caffe, Matlab R2013b
