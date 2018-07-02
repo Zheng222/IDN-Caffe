@@ -22,8 +22,9 @@ Caffe implementation of "Fast and Accurate Single Image Super-Resolution via Inf
     <img src="files/visualization.jpg" width="800"> <br />
     <em> Visualization of the output feature maps of the third convolution in each enhancement unit </em>
 </p>
-## Run test
 
+
+## Run test
 * Install Caffe, Matlab R2013b
 * Run testing:
 ```bash
