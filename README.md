@@ -7,6 +7,8 @@ Caffe implementation of "Fast and Accurate Single Image Super-Resolution via Inf
 
 [Poster](files/cvpr18_poster.pdf)
 
+[Manga109 Results](https://drive.google.com/open?id=1P4epYq7rgwNKej_1uetJ06nB5mDUICWL)
+
 <p align="center">
     <img src="files/whole architecture.jpg" width="800"> <br />
     <em> The schematics of the proposed Information Distillation Network</em>
