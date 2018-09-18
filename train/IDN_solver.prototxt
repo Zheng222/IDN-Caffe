@@ -2,10 +2,10 @@
 net: "IDN_x2.prototxt" # IDN_x3.prototxt | IDN_x4.prototxt
 test_iter:267    # 267(x2) | 231(x3) | 126(x4)
 
-#Carry out testing every 5000 training iterations.
+# Carry out testing every 5000 training iterations.
 test_interval: 5000
 
-#The base learning rate, momentum and the weight decay of the network.
+# The base learning rate, momentum and the weight decay of the network.
 type: "Adam"
 base_lr: 0.0001
 weight_decay: 0.0001
