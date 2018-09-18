@@ -44,7 +44,7 @@ The results are stored in "results" folder, with both reconstructed images and P
 * step 2: Run `data_aug.m` to augment 291 dataset
 * step 3: Run `generate_train_IDN.m` to convert training images to hdf5 file
 * step 4: Run `generate_test_IDN.m` to convert testing images to hdf5 file for valid model during the training phase
-* step 5: Run `train.sh` to train x2 model
+* step 5: Run `train.sh` to train x2 model (Manually create directory `caffemodel_x2`)
 ## Citation
 
 If you find IDN useful in your research, please consider citing:
