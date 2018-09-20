@@ -1,13 +1,7 @@
 # IDN-Caffe
 Caffe implementation of "Fast and Accurate Single Image Super-Resolution via Information Distillation Network" 
 
-[arXiv](http://arxiv.org/abs/1803.09454)
-
-[CVF](http://openaccess.thecvf.com/content_cvpr_2018/html/Hui_Fast_and_Accurate_CVPR_2018_paper.html)
-
-[Poster](files/cvpr18_poster.pdf)
-
-[Manga109 Results](https://drive.google.com/open?id=1P4epYq7rgwNKej_1uetJ06nB5mDUICWL)
+[[arXiv]](http://arxiv.org/abs/1803.09454) [[CVF]](http://openaccess.thecvf.com/content_cvpr_2018/html/Hui_Fast_and_Accurate_CVPR_2018_paper.html) [[Poster]](files/cvpr18_poster.pdf) [[Manga109 Results]](https://drive.google.com/open?id=1P4epYq7rgwNKej_1uetJ06nB5mDUICWL)
 
 <p align="center">
     <img src="files/whole architecture.jpg" width="800"> <br />
@@ -26,7 +20,7 @@ Caffe implementation of "Fast and Accurate Single Image Super-Resolution via Inf
 </p>
 
 
-## Run test
+## Testing
 * Install Caffe, Matlab R2013b
 * Run testing:
 ```bash
@@ -39,7 +33,7 @@ $ matlab
 `./test/caffemodel/IDN_x2.caffemodel`, `./test/caffemodel/IDN_x3.caffmodel` and `./test/caffemodel/IDN_x4.caffemodel` are obtained by training the model with 291 images, and `./test/caffemodel/IDN_x4_mscoco.caffemodel` is got through training the same model with mscoco dataset.
 
 The results are stored in "results" folder, with both reconstructed images and PSNR/SSIM/IFCs.
-## Train
+## Training
 * step 1: Compile Caffe with `train/include/caffe/layers/l1_loss_layer.hpp`, `train/src/caffe/layers/l1_loss_layer.cpp` and `train/src/caffe/layers/l1_loss_layer.cu`
 * step 2: Run `data_aug.m` to augment 291 dataset
 * step 3: Run `generate_train_IDN.m` to convert training images to hdf5 file
