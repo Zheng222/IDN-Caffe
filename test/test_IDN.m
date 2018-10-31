@@ -68,7 +68,7 @@ for i=1:length(filepaths)
     %% bicubic interpolation
     im_b=imresize(im_l,up_scale,'bicubic');
       
-    %% reinforce_net
+    %% IDN feed-forward
     tic
     im_input=permute(im_l,[2,1,3]);
     net.blobs('data').reshape([size(im_input),1,1]);
