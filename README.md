@@ -39,7 +39,7 @@ The results are stored in "results" folder, with both reconstructed images and P
 * step 3: Run `generate_train_IDN.m` to convert training images to hdf5 file
 * step 4: Run `generate_test_IDN.m` to convert testing images to hdf5 file for valid model during the training phase
 * step 5: Run `train.sh` to train x2 model (Manually create directory `caffemodel_x2`)
-## Resultsp
+## Results
 [[Set5] [Set14] [B100] [Urban100] [Manga109]](https://drive.google.com/open?id=1J49xNQtbgFAs-Q2LWFRnzIlvv67CTznB)
 
 ## Citation
