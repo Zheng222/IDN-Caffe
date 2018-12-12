@@ -2,6 +2,7 @@
 Caffe implementation of "Fast and Accurate Single Image Super-Resolution via Information Distillation Network" 
 
 [[arXiv]](http://arxiv.org/abs/1803.09454) [[CVF]](http://openaccess.thecvf.com/content_cvpr_2018/html/Hui_Fast_and_Accurate_CVPR_2018_paper.html) [[Poster]](files/cvpr18_poster.pdf)
+[[TensorFlow version]](https://github.com/Zheng222/IDN-tensorflow)
 
 <p align="center">
     <img src="files/whole architecture.jpg" width="800"> <br />
