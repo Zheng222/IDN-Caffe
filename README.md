@@ -41,8 +41,17 @@ The results are stored in "results" folder, with both reconstructed images and P
 * step 4: Run `generate_test_IDN.m` to convert testing images to hdf5 file for valid model during the training phase
 * step 5: Run `train.sh` to train x2 model (Manually create directory `caffemodel_x2`)
 ## Results
-[[Set5] [Set14] [B100] [Urban100] [Manga109]](https://drive.google.com/open?id=1J49xNQtbgFAs-Q2LWFRnzIlvv67CTznB)
+[Set5,Set14,B100,Urban100,Manga109](https://drive.google.com/open?id=1J49xNQtbgFAs-Q2LWFRnzIlvv67CTznB)
 
+With regard to the visualization of mean feature maps, you can run `test_IDN` first and then execute the following code in Matlab.
+```matlab
+inspect = cell(4, 1);
+for i = 1:4
+    inspect{i} = net.blobs(['down' num2str(i)]).get_data();
+    figure;
+    imagesc(mean(inspect{i}, 3)')
+end
+```
 ## Citation
 
 If you find IDN useful in your research, please consider citing:
