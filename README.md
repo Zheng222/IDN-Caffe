@@ -52,6 +52,14 @@ for i = 1:4
     imagesc(mean(inspect{i}, 3)')
 end
 ```
+
+## Model Parameters
+| <sub>Scale</sub> | <sub>Modle Size</sub> |
+|:---:|:---:|
+| <sub>×2</sub> | <sub>**552,769**</sub> |
+| <sub>×3</sub> | <sub>**552,769**</sub> |
+| <sub>×4</sub> | <sub>**552,769**</sub> |
+
 ## Citation
 
 If you find IDN useful in your research, please consider citing:
