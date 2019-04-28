@@ -54,7 +54,7 @@ end
 ```
 
 ## Model Parameters
-| <sub>Scale</sub> | <sub>Modle Size</sub> |
+| <sub>Scale</sub> | <sub>Model Size</sub> |
 |:---:|:---:|
 | <sub>×2</sub> | <sub>**552,769**</sub> |
 | <sub>×3</sub> | <sub>**552,769**</sub> |
